@@ -1,0 +1,54 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# =========================
+# AI / Hugging Face Models
+# =========================
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+config.json
+generation_config.json
+special_tokens_map.json
+tokenizer.json
+tokenizer_config.json
+spiece.model
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# React / Node
+# =========================
+node_modules/
+build/
+dist/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
